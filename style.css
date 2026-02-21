@@ -1,0 +1,39 @@
+body{
+    text-align:center;
+    background: #0f172a;
+    color: white;
+    font-family: Arial,sans-serif;
+}
+h1{
+    margin:10px;
+}
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+canvas{
+    background: #020617;
+    border: 3px solid #22c55e;
+}
+.controls {
+    margin-top: 10px;
+}
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    border:none;
+    border-radius:6px;
+    background: #22c55e;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background:#16a34a;
+}
+.hint{
+    margin-top:10px;
+    font-size:14px;
+    opacity: 0.7;
+}

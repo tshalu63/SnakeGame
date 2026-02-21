@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Advanced Snake Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🐍 Snake Game</h1>
+
+  <div class="scoreboard">
+    <span>Score: <b id="score">0</b></span>
+    <span>High Score: <b id="highScore">0</b></span>
+  </div>
+
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+  <div class="controls">
+    <button onclick="togglePause()">⏸ Pause / Resume</button>
+    <button onclick="restartGame()">🔄 Restart</button>
+  </div>
+
+  <p class="hint">Use Arrow Keys or Swipe (Mobile)</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
